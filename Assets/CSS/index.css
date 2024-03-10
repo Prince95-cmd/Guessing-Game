@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#overall {
+    width: 70%;
+    background: linear-gradient(148deg, rgb(33, 91, 114)50%, rgb(30, 80, 101)50%) ;
+    height: 550px;
+    border: none;
+    border-radius: 15px;
+
+}
+.container{
+    /* height: 50vh; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    /* background-color:rgb(33, 91, 114) ;*/
+    border-radius: 15px; 
+}
+.write{
+    color: white;
+    width: 300px;
+    height: 300px;
+    margin-top: 125px ;
+    border-left: 3px solid white;
+    margin-left: 100px;
+}
+.write h1{
+    /* padding-top: 30px; */
+    height: 35vh;
+    font-size: 40px;
+    line-height: 80px;
+    padding-left: 15px;
+    margin-top: 30px;
+}
+.container-origin{
+    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 125px ;
+    margin-right: 100px;
+}
+.container-origin .buttonInput{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    gap: 10px;
+}
+.buttonInput input, .buttonInput button{
+    height: 100%;
+    width: 50%;
+    border-radius: 5px;
+}
+.buttonInput button{
+    background-color: rgb(33, 91, 114);
+    color: white;
+    font-size: larger;
+    border: none;
+    outline: none;
+}
+.buttonInput input{
+    padding: 5px;
+}
+
+#reload {
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(184, 145, 94);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#reload:hover {
+    cursor: pointer;
+    background-color: rgb(137, 104, 60);
+}
+
+@media screen and (max-width: 375px) {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body{
+    height: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+
+#overall {
+    width: 100%;
+    background: linear-gradient(180deg, rgb(33, 91, 114)50%, rgb(30, 80, 101)50%);
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+
+}
+.container{
+    /* height: 50vh; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 30px;
+    /* background-color: rgb(33, 91, 114); */
+    border-radius: 15px;
+}
+.write{
+    color: white;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    border-left: none;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.write h1{
+    /* padding-top: 30px; */
+    height: 35vh;
+    font-size: 40px;
+    line-height: 80px;
+    padding-left: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+.container-origin{
+    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.container-origin .buttonInput{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    gap: 10px;
+}
+.buttonInput input, .buttonInput button{
+    height: 100%;
+    width: 50%;
+    border-radius: 5px;
+}
+.buttonInput button{
+    background-color: rgb(33, 91, 114);
+    color: white;
+    font-size: larger;
+    border: none;
+    outline: none;
+}
+.buttonInput input{
+    padding: 5px;
+}
+
+#reload {
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(184, 145, 94);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#reload:hover {
+    cursor: pointer;
+    background-color: rgb(137, 104, 60);
+}
+
+}
