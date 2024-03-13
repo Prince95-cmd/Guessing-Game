@@ -5,7 +5,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const chances = document.querySelector("span");
     let chancesNum = 5;
     chances.innerHTML = chancesNum;
-    const num = 5;
+    const num = 50;
     check.style.opacity = "0.5";
     check.disabled = true;
  
