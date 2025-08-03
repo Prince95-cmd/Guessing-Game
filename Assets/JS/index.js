@@ -3,16 +3,16 @@ window.addEventListener("DOMContentLoaded", () => {
     const check = document.getElementById("check");
     const response = document.getElementById("response");
     const chances = document.querySelector("span");
-    let chancesNum = 5;
+    let chancesNum = 10;
     chances.innerHTML = chancesNum;
-    const num = 50;
+    const num = 70;
     check.style.opacity = "0.5";
     check.disabled = true;
  
     value.addEventListener("keyup", () => {
         let length = value.value.length;
  
-        if (length > 0 && length < 4 && value.value <= 100) {
+        if (length > 0 && length < 4 && value.value <= 200) {
             check.style.opacity = "1";
             check.disabled = false;
         } else {
