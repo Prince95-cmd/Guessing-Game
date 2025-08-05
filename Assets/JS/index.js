@@ -28,8 +28,14 @@ window.addEventListener("DOMContentLoaded", () => {
             response.innerHTML = "Your Number is too High";
         } else {
             response.innerHTML = "You are correct";
+            value.value = null
+            chancesNum = 11;
         }
         chancesNum--;
+        if(!value.value){
+            chances.innerHTML = 10;
+            return chances
+        }
         chances.innerHTML = chancesNum;
         if (chancesNum <= 0) {
             check.disabled = true;
